@@ -18,7 +18,7 @@ const ErrorPage = () => {
            {error.data}
           </p>
           <p className="p-b">... Back to previous page</p>
-          <Link href="#" className="back">
+          <Link to="/" className="back">
             ... Back to previous page
           </Link>
         </div>
