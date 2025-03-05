@@ -17,7 +17,7 @@ const About = () => {
 
             return (
               <div className="card" key={id}>
-                <div className="container-card bg-blue-box">
+                <div className="container-card bg-white-box">
                   <p className="card-title">{countryName}</p>
                   <p>
                     <span className="card-description">Capital: </span>

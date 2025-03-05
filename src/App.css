@@ -78,7 +78,7 @@ button {
 /* Layout  */
 
 .container {
-  max-width: 155rem;
+  max-width: 140rem;
   margin: auto;
 }
 
@@ -331,6 +331,7 @@ nav ul {
 .footer-contact-text {
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
   gap: 0.6rem;
 
   & p {
