@@ -18,7 +18,7 @@ const Contact = () => {
             <input
               type="text"
               className="form-control"
-              autoComplete="false"
+              autoComplete="off"
               placeholder="Enter your name"
               name="username"
               required
@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="text"
               className="form-control"
-              autoComplete="false"
+              autoComplete="off"
               placeholder="Enter your e-mail"
               name="email"
               required
@@ -35,7 +35,7 @@ const Contact = () => {
               type="text"
               className="form-control"
               rows="10"
-              autoComplete="false"
+              autoComplete="off"
               placeholder="Enter your message"
               name="message"
               required
